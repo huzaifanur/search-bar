@@ -22,10 +22,11 @@ input {
       width:700px;
       display: flex;
       align-items: center;
-      
-
   }
 
+  .sorting-icon{
+      margin-right: 15px;
+  }
   .search-icon{
     border-bottom: 2px solid black;
     padding-bottom: 22px;
