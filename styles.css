@@ -9,7 +9,7 @@ body{
 
 input {
     background-color: inherit;
-    width: 100%;
+    width: 50%;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
@@ -18,10 +18,17 @@ input {
     outline:none;
   }
 
+  
+  .left-group{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
   .container{
       width:700px;
       display: flex;
       align-items: center;
+      justify-content: space-between;
   }
 
   .sorting-icon{
@@ -31,3 +38,4 @@ input {
     border-bottom: 2px solid black;
     padding-bottom: 22px;
   }
+ 
